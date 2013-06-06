@@ -307,14 +307,7 @@ th, td {
 	color: #aaa;
 }
 
-
-
-.state-publishers h1,
-.state-lufthansa h1,
-.state-questions h1,
-.state-ateam h1,
-.state-christians h1,
-.state-judaism h1 {
+.state-questions h1 {
 	text-shadow: 1px 0 0 rgba(255,255,255,0.7),
 	             0 1px 0 rgba(255,255,255,0.7),
 	             0 -1px 0 rgba(255,255,255,0.7),
@@ -337,9 +330,36 @@ th, td {
 	             0 0 30px #000;
 }
 
+.me-picture div {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background: url(../assets/about/me-1.jpg) 50% 50%;
+	background-size: auto 100%;
+	margin: auto;
+}
 
-.state-publishers .footer-alignment,
-.state-lufthansa .footer-alignment,
-.state-judaism .footer-alignment {
-	bottom: -14rem;
+.me-picture-2 div {
+	background-image: url(../assets/about/me-2.jpg);
+}
+
+.me-picture-3 div {
+	background: url(../assets/about/not-me.jpg) 0 0;
+	background-size: 100% auto;
+}
+
+
+.state-html5bp .stack.present,
+.state-h5bp .stack.present {
+	margin-top: -100px;
+}
+
+.state-html5bp .reveal,
+.state-h5bp .reveal {
+	background: url(../assets/html5bp.png) 50% 19rem no-repeat;
+	background-size: 900px auto;
+}
+
+.state-h5bp .reveal {
+	background-image: url(../assets/h5bp.png);
 }
